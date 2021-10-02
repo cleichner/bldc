@@ -284,11 +284,6 @@ make -j8 build_args='-DDISABLE_HW_LIMITS -DHW_SOURCE=\"hw_hd.c\" -DHW_HEADER=\"h
 cd $DIR
 cp $FWPATH/build/BLDC_4_ChibiOS.bin $COPYDIR/VESC_default_no_hw_limits.bin
 
-# Clean
-cd $FWPATH
-make clean
-cd $DIR
-
 #################### HW A200S 2.1 ########################
 
 COPYDIR=A200S_V21
